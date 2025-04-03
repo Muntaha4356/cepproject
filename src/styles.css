@@ -1,0 +1,71 @@
+* {
+  padding: 0%;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(32, 36, 37);
+  height: 100vh;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.App h1 {
+  color: aliceblue;
+  padding: 2rem;
+}
+.App hr {
+  color: rgb(42, 50, 53);
+}
+.row {
+  display: flex;
+  align-items: center; /* Aligns label and textarea */
+  margin: 1rem 0;
+}
+
+.row label {
+  width: 40%; /* Adjust width as needed */
+  text-align: right; /* Aligns label text */
+  padding-right: 10px;
+}
+
+.row textarea {
+  flex-grow: 1;
+}
+
+.App label {
+  color: aliceblue;
+  padding: 1rem;
+  margin-top: 1rem;
+}
+.App input {
+  background-color: rgb(18, 20, 19);
+  color: aliceblue;
+  border: 1px solid rgb(73, 95, 114);
+  outline: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+.App textarea {
+  background-color: rgb(18, 20, 19);
+  color: aliceblue;
+  border: 1px solid rgb(73, 95, 114);
+  outline: none;
+  padding: 1rem;
+  margin: 1rem;
+}
+
+button {
+  background-color: rgb(18, 20, 19);
+  border: none;
+  padding: 1rem;
+  color: aliceblue;
+  margin: 0px;
+  border-radius: 30px;
+}
+footer {
+  position: absolute;
+  right: 10px;
+  color: aliceblue;
+}
