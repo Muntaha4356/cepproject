@@ -1,5 +1,7 @@
 import "./styles.css";
+// @ts-ignore
 import { convertToPostfix } from "./utils/Postfix.js";
+// @ts-ignore
 import { evaluatePostfix } from "./utils/Evaluation.js";
 import { useState } from "react";
 export default function App() {
